@@ -1,0 +1,6 @@
+os: RHEL
+dist: rhel8
+language: go
+arch: amd64
+script:
+  - go run hello_world.go
