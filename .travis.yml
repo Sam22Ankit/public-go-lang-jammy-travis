@@ -1,7 +1,7 @@
 os: linux
 dist: rhel8
 language: php
-python:
+php:
   - "7.3.32"
 script:
    - php hello_world.php
