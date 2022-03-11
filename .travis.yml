@@ -1,7 +1,6 @@
-os: linux
+os: RHEL
 dist: rhel8
-language: php
-php:
-  - "7.3.32"
+language: go
+arch: amd64
 script:
-   - php hello_world.php
+  - go run hello_world.go
